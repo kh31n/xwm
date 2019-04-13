@@ -1,7 +1,7 @@
 #include <xcb/xcb.h>
 
 int main(void) {
-    xcb_connection *c;
+    xcb_connection_t *c;
 
     c = xcb_connect(NULL, NULL);
 
